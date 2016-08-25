@@ -1,0 +1,9 @@
+[package]
+name = "maroon_os"
+version = "0.0.1"
+authors = ["Naren Dasan <naren@narendasan.com>", "Philipp Oppermann <dev@phil-opp.com>"]
+
+[lib]
+name = "kernel"
+path = "kernel/main.rs"
+crate-type = ["staticlib"]
